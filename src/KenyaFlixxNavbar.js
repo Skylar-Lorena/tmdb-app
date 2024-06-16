@@ -11,12 +11,12 @@ const KenyaFlixxNavbar = ({ onSearch }) => {
   return (
     <Navbar bg="dark" variant="dark" expand="lg">
       <Container fluid>
-        <Navbar.Brand href="#">Kenya Flixx</Navbar.Brand>
+        <Navbar.Brand href="/">Kenya Flixx</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav className="me-auto">
-            <Nav.Link href="#">Home</Nav.Link>
-            <Nav.Link href="#">Favorites</Nav.Link>
+            <Nav.Link href="/movies">Home</Nav.Link>
+            <Nav.Link href="/favorites">Favorites</Nav.Link>
           </Nav>
           <FormControl
             type="search"
