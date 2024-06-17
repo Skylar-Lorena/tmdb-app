@@ -28,7 +28,9 @@
   height: 200px; /* Adjust image height as needed */
   object-fit: cover; /* Crop or contain image within the allocated space */
 }
-
+.logo{
+  width: 100%;
+}
 
 
 
